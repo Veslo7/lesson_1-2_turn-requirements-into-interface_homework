@@ -1,19 +1,272 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
-      name="description"
-      content="Учебный проект по техническому заданию"
-    />
-    <title>Учебный проект</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main>
-      <h1>Учебный проект</h1>
-      <p>Стартовая версия страницы.</p>
-    </main>
-  </body>
+        name="description"
+        content="История шахматного пути и главные этапы спортивного развития."
+    >
+    <title>Путь шахматиста</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+
+        <header class="hero block" aria-labelledby="hero-title">
+
+            <div class="hero-main">
+                <h1 id="hero-title">Путь шахматиста</h1>
+
+                <p class="hero-text">
+                    Шахматы стали для меня не просто увлечением, а частью жизни.
+                    Они научили меня думать глубже, работать над собой и двигаться
+                    вперёд даже тогда, когда результат не приходит сразу.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#story">
+                        Читать историю
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="images/chess.jpg"
+                    alt="Шахматная доска с фигурами"
+                >
+            </div>
+
+        </header>
+
+
+        <main>
+
+            <section
+                id="story"
+                class="block content-section story-section"
+                aria-labelledby="story-title"
+            >
+
+                <div class="section-heading">
+                    <h2 id="story-title">
+                        От первой партии<br>
+                        до больших турниров
+                    </h2>
+                </div>
+
+                <div class="card-grid">
+
+                    <article class="item-card story-card">
+                        <div class="item-content">
+                            <p>
+                                В тринадцать лет, находясь в родной Рузаевке,
+                                я попросил друга научить меня играть в шахматы.
+                                Сначала это было обычным интересом, но постепенно
+                                игра захватила меня полностью.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="item-card story-card">
+                        <div class="item-content">
+                            <p>
+                                Я начал читать шахматные книги, разбирать партии
+                                и самостоятельно воспроизводить позиции на доске.
+                                Постепенно я стал лучше понимать все этапы партии
+                                и увидел, насколько глубокой может быть эта игра.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="item-card story-card">
+                        <div class="item-content">
+                            <p>
+                                Постоянная работа над собой дала результат.
+                                Благодаря упорству и полной вовлечённости
+                                я достаточно быстро выполнил первый взрослый
+                                разряд и продолжил выступать на серьёзных
+                                соревнованиях.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="block content-section"
+                aria-labelledby="facts-title"
+            >
+
+                <div class="section-heading">
+                    <h2 id="facts-title">Три важных этапа</h2>
+                </div>
+
+                <div class="card-grid">
+
+                    <article class="item-card fact-card">
+
+                        <img
+                            class="card-image"
+                            src="images/mordovia.jpg"
+                            alt="Шахматные фигуры"
+                        >
+
+                        <div class="item-content">
+
+                            <p class="item-period">2023</p>
+
+                            <h3>Чемпионат Мордовии</h3>
+
+                            <p>
+                                Победа на чемпионате Мордовии среди юниоров.
+                                Результат постоянных тренировок и работы
+                                над своей игрой.
+                            </p>
+
+                            <a
+                                class="button button-secondary"
+                                href="https://ruchess.ru/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Результаты
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="item-card fact-card">
+
+                        <img
+                            class="card-image"
+                            src="images/dubai.jpg"
+                            alt="Городской пейзаж Дубая"
+                        >
+
+                        <div class="item-content">
+
+                            <p class="item-period">2024</p>
+
+                            <h3>Международный турнир в Дубае</h3>
+
+                            <p>
+                                Четвёртое место на международном шахматном
+                                турнире и призовые в размере 1400 долларов.
+                            </p>
+
+                            <a
+                                class="button button-secondary"
+                                href="https://chess-results.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Результаты
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="item-card fact-card">
+
+                        <img
+                            class="card-image"
+                            src="images/moscow.jpg"
+                            alt="Шахматные фигуры во время турнира"
+                        >
+
+                        <div class="item-content">
+
+                            <p class="item-period">2024–2025</p>
+
+                            <h3>Турниры в Москве</h3>
+
+                            <p>
+                                Участие в турнирах, партии с мастерами
+                                и призовые места. Возможность соревноваться
+                                с сильными и опытными соперниками.
+                            </p>
+
+                            <a
+                                class="button button-secondary"
+                                href="https://moscowchess.org/tournaments"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Турниры
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="block conclusion"
+                aria-labelledby="conclusion-title"
+            >
+
+                <div class="conclusion-image">
+                    <img
+                        src="images/notes.jpg"
+                        alt="Шахматная партия и записи"
+                    >
+                </div>
+
+                <div class="conclusion-content">
+
+                    <h2 id="conclusion-title">
+                        Шахматы научили меня двигаться вперёд
+                    </h2>
+
+                    <p>
+                        Для меня шахматы стали примером того, как интерес,
+                        дисциплина и постоянная работа могут постепенно
+                        превращаться в результат. Каждая партия даёт
+                        возможность увидеть свои ошибки, сделать выводы
+                        и стать сильнее.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a
+                            class="button button-primary"
+                            href="https://www.chess.com/events"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Узнать больше о шахматах
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <footer class="footer">
+            <p>Путь шахматиста</p>
+            <p>2026</p>
+        </footer>
+
+    </div>
+</body>
 </html>
